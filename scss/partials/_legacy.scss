@@ -97,9 +97,7 @@ position: relative;
 top: -1px;
 border: 0;
 }
-.sidebar-nav .view { display: none; }
-.sidebar-nav .remove,
-.sidebar-nav .configuration { display: none; }
+
 
 .sidebar-nav .boxes { display:none;}
 
@@ -117,7 +115,13 @@ border: 0;
 .edit .demo .lyrow .drag { top:5px; right:80px; z-index:10; }
 .edit .demo .column .box .drag { top:5px; }
 .edit .demo .column .box .configuration {position: absolute; top: 3px; right: 140px;white-space:nowrap; }
-.edit .demo .remove { position: absolute; top: 5px; right: 5px; z-index:10; }
+.edit .demo .remove {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	z-index:10;
+	color: #fff;
+}
 .demo .configuration {
 	filter: alpha(opacity=0);
 	opacity: 0;
